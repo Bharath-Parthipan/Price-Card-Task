@@ -10,7 +10,7 @@ export const PriceCard = (props) => {
     <div className="d-flex justify-content-center align-items-center gap-5 flex-wrap">
       {priceCardData.map((data, index) => (
         <div key={index}>
-          <Card style={{ width: "22rem", borderRadius: "20px", padding: "10px" }}>
+          <Card className="card-style">
             <Card.Body>
               <Card.Subtitle className="mb-2 text-body-tertiary text-center">
                 {data.planType}
